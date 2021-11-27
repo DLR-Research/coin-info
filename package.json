@@ -12,6 +12,8 @@
     "typescript": "^4.5.2"
   },
   "scripts": {
-    "dev": "PORT=3000 ts-node src"
+    "dev": "PORT=3000 ts-node src",
+    "build": "tsc",
+    "start": "node dist"
   }
 }
